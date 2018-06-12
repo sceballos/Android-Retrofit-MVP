@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MVP Retrofit</string>
+    <string name="find_out_where_string">Find out where</string>
+    <string name="user_lives_string">lives</string>
+    <string name="member_since_string">Member since</string>
+    <string name="google_maps_api_key">AIzaSyCWDyJ6I3eedfsUtprqHBpdRpV_hGbrwDo</string>
+
+</resources>
