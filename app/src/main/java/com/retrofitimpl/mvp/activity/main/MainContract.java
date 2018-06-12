@@ -31,7 +31,7 @@ public interface MainContract {
     interface GetUsersInteractor {
 
         interface OnFinishedListener {
-            void onFinished(ArrayList<RandomUser> noticeArrayList);
+            void onFinished(ArrayList<RandomUser> usersArrayList);
             void onFailure(Throwable t);
         }
 
