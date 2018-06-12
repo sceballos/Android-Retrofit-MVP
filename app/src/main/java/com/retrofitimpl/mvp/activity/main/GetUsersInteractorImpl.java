@@ -18,7 +18,7 @@ public class GetUsersInteractorImpl implements MainContract.GetUsersInteractor {
         /** Create handle for the RetrofitInstance interface*/
         GetUsersDataService service = RetrofitInstance.getRetrofitInstance().create(GetUsersDataService.class);
 
-        /** Call the method with parameter in the interface to get the notice data*/
+        /** Call the method with parameter in the interface to get the users data*/
         Call<UsersList> call = service.getUsersData();
 
         /**Log the URL called*/
