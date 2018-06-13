@@ -16,15 +16,15 @@ You can find the next package structure in the project
 		--network
 		--util
 
--*Activity* : Holds every activity of the app. Inside you can fin two more packages (main, details) that holds the logic
+-**Activity** : Holds every activity of the app. Inside you can fin two more packages (main, details) that holds the logic
 for each screen (Contracts, Presenter implementations, Interactors and the activity file itself). In this case only  MainActivity.java needs MVP logic.  
 
--*Adapter* : Holds adapters for the lists of the app. In this case the only adapter used is UsersAdapters.java that manages the MainActivity.java RecyclerView.  
+-**Adapter** : Holds adapters for the lists of the app. In this case the only adapter used is UsersAdapters.java that manages the MainActivity.java RecyclerView.  
 
--*data* : Contains data structures used acorss the app.  
+-**data** : Contains data structures used acorss the app.  
 
--*interfaces* : Contains retrofit based interfaces that request data from specific endpoints. If a new api needs to be added a new interface needs to be created to handle it.  
+-**interfaces** : Contains retrofit based interfaces that request data from specific endpoints. If a new api needs to be added a new interface needs to be created to handle it.  
 
--*network* : Contains retrofit instances for each api to be consumed. If a new api needs to be added a new retrofit instance class needs to be created to handle it.  
+-**etwork** : Contains retrofit instances for each api to be consumed. If a new api needs to be added a new retrofit instance class needs to be created to handle it.  
 
 -*util* : Any usefull tool needs to be placed here.
