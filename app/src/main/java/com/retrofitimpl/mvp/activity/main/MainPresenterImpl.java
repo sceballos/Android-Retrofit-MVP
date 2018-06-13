@@ -20,7 +20,7 @@ public class MainPresenterImpl implements MainContract.presenter, MainContract.G
     }
 
     @Override
-    public void onRefreshButtonClick() {
+    public void onRefreshAction() {
 
         if(mainView != null){
             mainView.showProgress();

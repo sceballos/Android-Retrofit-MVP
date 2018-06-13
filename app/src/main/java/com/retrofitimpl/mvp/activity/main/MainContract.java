@@ -10,7 +10,7 @@ public interface MainContract {
 
         void onDestroy();
 
-        void onRefreshButtonClick();
+        void onRefreshAction();
 
         void requestDataFromServer();
     }
