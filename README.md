@@ -6,15 +6,18 @@ You need to get a new api key and add this app with your debug/release keystore 
 You can find a full explanation on how to do this here : https://developers.google.com/maps/documentation/android-api/start  
 Once you have your api key, go to app/{app-package-name}/res/valus/strings.xml and replace the current api key with the new one that you have created.  
 
+
+##Project structure
+
 You can find the next package structure in the project
 
-{app-package-name}  
-		--activity  
-		--adapter  
-		--data  
-		--interfaces  
-		--network  
-		--util  
+>{app-package-name}  
+		>--activity  
+		>--adapter  
+		>--data  
+		>--interfaces  
+		>--network  
+		>--util  
 
 -**Activity** : Holds every activity of the app. Inside you can fin two more packages (main, details) that holds the logic
 for each screen (Contracts, Presenter implementations, Interactors and the activity file itself). In this case only  MainActivity.java needs MVP logic.  
