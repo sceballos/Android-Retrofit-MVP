@@ -8,13 +8,13 @@ Once you have your api key, go to app/{app-package-name}/res/valus/strings.xml a
 
 You can find the next package structure in the project
 
-{app-package-name}
-		--activity
-		--adapter
-		--data
-		--interfaces
-		--network
-		--util
+{app-package-name}  
+		--activity  
+		--adapter  
+		--data  
+		--interfaces  
+		--network  
+		--util  
 
 -**Activity** : Holds every activity of the app. Inside you can fin two more packages (main, details) that holds the logic
 for each screen (Contracts, Presenter implementations, Interactors and the activity file itself). In this case only  MainActivity.java needs MVP logic.  
@@ -25,6 +25,6 @@ for each screen (Contracts, Presenter implementations, Interactors and the activ
 
 -**interfaces** : Contains retrofit based interfaces that request data from specific endpoints. If a new api needs to be added a new interface needs to be created to handle it.  
 
--**etwork** : Contains retrofit instances for each api to be consumed. If a new api needs to be added a new retrofit instance class needs to be created to handle it.  
+-**network** : Contains retrofit instances for each api to be consumed. If a new api needs to be added a new retrofit instance class needs to be created to handle it.  
 
--*util* : Any usefull tool needs to be placed here.
+-**util** : Any usefull tool needs to be placed here.
