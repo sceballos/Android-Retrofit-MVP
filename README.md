@@ -20,10 +20,10 @@ You can find the next package structure in the project
 		-network  
 		-util  
 
--**Activity** : Holds every activity of the app. Inside you can fin two more packages (main, details) that holds the logic
+-**activity** : Holds every activity of the app. Inside you can fin two more packages (main, details) that holds the logic
 for each screen (Contracts, Presenter implementations, Interactors and the activity file itself). In this case only  MainActivity.java needs MVP logic.  
 
--**Adapter** : Holds adapters for the lists of the app. In this case the only adapter used is UsersAdapters.java that manages the MainActivity.java RecyclerView.  
+-**adapter** : Holds adapters for the lists of the app. In this case the only adapter used is UsersAdapters.java that manages the MainActivity.java RecyclerView.  
 
 -**data** : Contains data structures used acorss the app.  
 
